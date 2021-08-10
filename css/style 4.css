@@ -1,0 +1,204 @@
+body{
+
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+
+}
+
+.clear {
+	clear: both;
+}
+
+.navbar {
+	background-color: #87666fe8;
+    height: 100px;
+    position: fixed;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.navbar.logo
+{
+
+float: left;
+}
+.navbar.logo h1 {
+float: left;
+
+}
+.navbar ul {
+list-style: none;
+float: right;
+
+
+}
+
+.navbar ul li {
+display: inline-block;
+margin-right: 90px;
+font-size: 20px;
+
+
+
+}
+.navbar ul  a{
+	text-decoration: : none ;
+	color:#7f0303;
+	
+
+}
+.web {
+
+	
+	width: 100%;
+	height: 1050px;
+	margin: 0;
+	padding: 0;
+	background-image:url(2.jpg);
+	background-size: cover;
+
+}
+.web .intro {
+	text-align: center;
+    font-size: 103px;
+    color: #cc0000;
+    padding-top: 89px;
+    letter-spacing: 64px;
+}
+.image{
+	width: 100%;
+}
+
+.image .img img{
+	width: 33.333%;
+	height: 500px;
+	float: left;
+}
+
+
+
+.footer{
+	background-color: #825a5af2;
+	padding: 20px 0px;
+	text-align: center;
+    color: #f5f2eb;
+
+}
+.contactus
+{
+	width: 100%;
+}
+.contactus .info {
+	float: left;
+	width: 50%;
+	height: 1000px;
+}
+
+.contactus .info input {
+	width: 410px;
+	margin-bottom: 18px;
+	height: 38px;
+	border: 2px solid #ddd;
+	border-radius: 12px;
+	padding-left: 19px;
+	font-size: 21px;
+	font-weight: lighter;
+
+
+}
+
+.contactus .info textarea {
+	width: 410px;
+	margin-bottom: 18px;
+	height: 180px;
+	border: 2px solid #ddd;
+	border-radius: 12px;
+	padding-left: 19px;
+	font-size: 21px;
+	font-weight: lighter;
+
+
+}
+.contactus .info button {
+    width: 120px;
+    margin-bottom: 18px;
+        margin-left: 18px;
+    height: 60px;
+    border: 6px solid #030303;
+    border-radius: 12px;
+    padding: 19px 19px 19px 19px;
+    font-size: 21px;
+    font-weight: lighter;
+    background-color: #92747c;
+
+}
+
+.contactus .map {
+	float: right;
+
+	margin: 75px;
+	    border: 5px solid #8e6a71
+}
+
+.product  h2{
+	text-align: center;
+    font-size: 47px;
+    color: #cb5c0f;
+    margin-top: 100px;
+}
+ 
+.product  .container{
+	width: 100%;
+    max-width: 1500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.product .card{
+	width: 330px;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 2px rgb(0,0,0,0.5);
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.product .card:hover{
+	transform: translate(-10px);
+	box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+
+.product .card img{
+	width: 330px;
+    height: 240px;
+}
+
+.product .card h4{
+	font-size: 25px;
+    color: #486b4f;
+}
+
+.product .card p {
+	padding: 12px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.product .card  button{
+	padding: 7px 30px;
+    font-size: 17px;
+    margin-bottom: 13px;
+    border-radius: 8px;
+    border: 1px solid #DDD;
+    background-color: #486b4f;
+    color: #DDD;
+}
